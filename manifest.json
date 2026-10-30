@@ -24,9 +24,19 @@
       "sha256": "5bd9c7591c1126b0e5cb7859268bf8eacd37cc80a959a59a917caec6e2a65254"
     },
     {
+      "path": "LICENSE",
+      "bytes": 11375,
+      "sha256": "7e282402a5a6db33995fe638bb3fe79013f9884d8f7d15a42e481c1e86aadda1"
+    },
+    {
       "path": "LICENSE-OfficeCLI.txt",
       "bytes": 11375,
       "sha256": "7e282402a5a6db33995fe638bb3fe79013f9884d8f7d15a42e481c1e86aadda1"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 490,
+      "sha256": "3ad2f1f194ecd1c9df6dc71125fbe4de134b9d9f3358eceebdd5b9eb7a37bc52"
     },
     {
       "path": "NOTICE-OfficeCLI.txt",
@@ -35,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7852,
-      "sha256": "8ff8a6b3b1fcdb5095c847292765af67e475d3ca14c6d3919ab259f331ccba92"
+      "bytes": 7959,
+      "sha256": "22713ed9c931b1cc74eac9d113fda0950ea1acb732f6171b5c2fa2c43bb25fd9"
     },
     {
       "path": "skills/officecli-docx/SKILL.md",
@@ -64,5 +74,6 @@
       "sha256": "4e2a2f8c704f1418caee14ea3c9b6347240821416d5d6541c3695365c77d67ef"
     }
   ],
-  "repository": "https://github.com/CurtisJiang3/officecli-skills"
+  "repository": "https://github.com/CurtisJiang3/officecli-skills",
+  "license": "Apache-2.0"
 }

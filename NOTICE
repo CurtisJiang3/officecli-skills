@@ -1,0 +1,10 @@
+OfficeCLI Skills
+Copyright 2026 Curtis Jiang
+
+This repository distributes three independent OfficeCLI skills and includes
+local thesis-formatting guidance, SVG helpers, installation code, and docs.
+The repository is licensed under the Apache License, Version 2.0.
+
+OfficeCLI upstream material retains its original copyright and attribution.
+See LICENSE-OfficeCLI.txt and NOTICE-OfficeCLI.txt for the upstream license
+and notice. Local additions do not replace or remove those attributions.

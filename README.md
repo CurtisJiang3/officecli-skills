@@ -8,7 +8,7 @@
 | `officecli-docx` | Word 的结构、编辑、域、渲染与交付检查 | `SKILL.md` |
 | `officecli-thesis-gate` | 中文论文及用户明确指定的测试交付文档格式门禁 | `SKILL.md`、两个 SVG 处理脚本 |
 
-仓库：[`CurtisJiang3/officecli-skills`](https://github.com/CurtisJiang3/officecli-skills)，默认私有，另一台电脑需要有该仓库的读取权限。
+仓库：[`CurtisJiang3/officecli-skills`](https://github.com/CurtisJiang3/officecli-skills)，公开开源，任何人都可以查看、克隆并分别安装三个技能。
 
 三个独立安装路径分别为：
 
@@ -53,7 +53,7 @@ officecli --version
 
 ### 2. 安装本包技能
 
-先下载本仓库，或用 Git 克隆；私有仓库需要登录有权限的 GitHub 账号：
+先下载本仓库，或用 Git 克隆；读取公开仓库无需登录 GitHub：
 
 ```bash
 git clone https://github.com/CurtisJiang3/officecli-skills.git
@@ -116,6 +116,8 @@ python skills/officecli-thesis-gate/scripts/style_drawio_svg.py clean.svg word.s
 
 三个技能均通过 skill-creator 的结构校验；五个技能与脚本文件和本机原件逐字节一致。已在隔离临时目录验证 Windows 安装、更新备份、旧文件隔离、`-WhatIf` 和源目录重叠保护。两个 SVG 脚本已用样例验证提示层清理、原件保留、实际白底、中西文字体和插入宽度对应的物理字号。此处验证的是技能包及其辅助脚本，不代表某份论文已经通过门禁。
 
-## 上游来源
+## 开源许可与上游来源
 
-OfficeCLI 的上游项目是 [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)。随仓库保留其 Apache-2.0 许可和 NOTICE，见 `LICENSE-OfficeCLI.txt` 与 `NOTICE-OfficeCLI.txt`；这些文件用于标明上游内容的许可和归属，不为本地自定义论文规范另行指定许可。
+本仓库采用 **Apache-2.0** 开源许可，见 [`LICENSE`](LICENSE)。本地自定义论文规范、辅助脚本、安装脚本和说明也按此许可提供，归属声明见 [`NOTICE`](NOTICE)。
+
+OfficeCLI 的上游项目是 [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)。保留上游的原始许可和归属声明，分别见 `LICENSE-OfficeCLI.txt` 与 `NOTICE-OfficeCLI.txt`。
