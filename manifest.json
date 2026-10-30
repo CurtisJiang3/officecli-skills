@@ -1,0 +1,68 @@
+{
+  "snapshotDate": "2026-10-30",
+  "verifiedOfficeCliVersion": "1.0.159",
+  "skillNames": [
+    "officecli",
+    "officecli-docx",
+    "officecli-thesis-gate"
+  ],
+  "source": "First Git snapshot of three independent locally installed skills",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 82,
+      "sha256": "14bc8ce8f0e6fc85fbc9a2a4538be32923f37ec28617baf2d4ec0b4598409a16"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 43,
+      "sha256": "856d3fdd756775132bb6e1d2eb1661655915aee74acafceb3dddc731017e2b2d"
+    },
+    {
+      "path": "install.ps1",
+      "bytes": 4041,
+      "sha256": "5bd9c7591c1126b0e5cb7859268bf8eacd37cc80a959a59a917caec6e2a65254"
+    },
+    {
+      "path": "LICENSE-OfficeCLI.txt",
+      "bytes": 11375,
+      "sha256": "7e282402a5a6db33995fe638bb3fe79013f9884d8f7d15a42e481c1e86aadda1"
+    },
+    {
+      "path": "NOTICE-OfficeCLI.txt",
+      "bytes": 455,
+      "sha256": "3a4715b268e148a8e9566f5e835f766f5c95c3da4d6e5ddd908806a258a2f07b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7852,
+      "sha256": "8ff8a6b3b1fcdb5095c847292765af67e475d3ca14c6d3919ab259f331ccba92"
+    },
+    {
+      "path": "skills/officecli-docx/SKILL.md",
+      "bytes": 42947,
+      "sha256": "4dbeacba4bd107417fc31204ce22e91b37e5747d0541090d75ebb0ed14e02559"
+    },
+    {
+      "path": "skills/officecli-thesis-gate/scripts/prepare_drawio_svg.py",
+      "bytes": 1668,
+      "sha256": "6abf024a7dbbe6391d960e28a241ba8e97d3a63a130fb71145db9adffbde42c0"
+    },
+    {
+      "path": "skills/officecli-thesis-gate/scripts/style_drawio_svg.py",
+      "bytes": 4926,
+      "sha256": "e2c52d0b6079f4da806afb0ea0a7e7ced9cefb97044c1a6f14b297a2ebe058c6"
+    },
+    {
+      "path": "skills/officecli-thesis-gate/SKILL.md",
+      "bytes": 17691,
+      "sha256": "16a35b575fb2f264af44bcdcf3f477d73f893db065010adbcef66e30dbd80332"
+    },
+    {
+      "path": "skills/officecli/SKILL.md",
+      "bytes": 26391,
+      "sha256": "4e2a2f8c704f1418caee14ea3c9b6347240821416d5d6541c3695365c77d67ef"
+    }
+  ],
+  "repository": "https://github.com/CurtisJiang3/officecli-skills"
+}
